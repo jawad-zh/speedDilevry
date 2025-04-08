@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+body{
+    background:white;
+    height:100vh;
+    width:100%;
+    display: flex;
+   
+}
+.container{
+    height:70%;
+    width:100%;
+    background-color:#fab625;
+    padding:0px 20px;
+   
+
+}
+.heder{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    align-items: center;
+}
+.heder h1{
+    color:#00b376
+}
+.heder input{
+    border:none;
+    border-radius: 20px;
+    padding:10px 20px
+}
+.heder button{
+    background-color:#00b376;
+    border:none;
+    padding:10px 20px;
+    width: 200px;
+    border-radius: 20px;
+    color:white;
+    font-weight:600
+}
+.titleimg{
+    
+    height: 100%;
+    width: 80%;
+    display: flex;
+    margin:auto;
+    align-items: center;
+    gap:200px
+}
+.imag{
+    overflow: hidden;
+    height: 50%;
+    width: 50%;
+    
+}
+.imag img {
+    height:100%;
+    width: 100%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    
+}
+.title h2{
+    padding:20px 
+0}
